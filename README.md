@@ -171,9 +171,11 @@ Run the analysis first, then open:
 `mainnet_results/`. They display tables only and do not run the analysis
 pipeline.
 
-Before publishing notebooks, clear all cell outputs. Rendered notebook outputs
-can include local IP addresses, peer IPs, timestamps, paths, and derived capture
-data. The repository version of the notebooks should contain code and text only.
+The published notebooks may keep the rendered summary tables so readers can see
+the results without running the pipeline. Do not render raw flow tables,
+`false_positive_events.csv`, `passive_events.csv`, or endpoint columns from
+`notebook_bip324_candidates.csv`, because those files can include local IPs,
+peer IPs, timestamps, and capture-specific details.
 
 ## Example result
 
