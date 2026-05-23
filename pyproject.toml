@@ -1,0 +1,13 @@
+[project]
+name = "bip324-traffic-analysis"
+version = "0.1.0"
+description = "Passive analysis of Bitcoin P2P v2/BIP324 traffic captures"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "ipykernel>=6.0",
+    "jupyter>=1.0",
+    "matplotlib>=3.8",
+    "pandas>=2.0",
+    "pydantic>=2.7",
+]

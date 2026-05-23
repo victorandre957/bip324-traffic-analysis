@@ -1,0 +1,11 @@
+*results*/
+__pycache__
+mainnet_data/*
+data_to_analysis/*
+*.pcap
+*.pcapng
+*.log
+*.csv
+*.json
+!pyproject.toml
+!.gitignore

@@ -1,0 +1,5 @@
+matplotlib>=3.8
+pandas>=2.0
+jupyter>=1.0
+ipykernel>=6.0
+pydantic>=2.7
